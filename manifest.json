@@ -1,9 +1,9 @@
 {
   "manifest_version": 1,
-  "name": "HP Bar Plugin",
+  "name": "EasyHP",
   "version": "1.0.0",
   "description": "Plugin simples de barra de HP",
-  "author": "Gab",
+  "author": "EquipeEspelhosQuebrados",
   "action": {
     "title": "HP Bar",
     "icon": "icon.png",
