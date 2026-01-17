@@ -1,41 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>HP Plugin</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>HP Bar</title>
+  <style>
+    body {
+      background: #1e1e1e;
+      color: white;
+      font-family: sans-serif;
+      padding: 10px;
+    }
+
+    .bar-bg {
+      width: 100%;
+      height: 20px;
+      background: #444;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .bar-fill {
+      height: 100%;
+      width: 75%;
+      background: red;
+      transition: width 0.3s;
+    }
+  </style>
 </head>
 <body>
 
-<div id="menu">
-  <h3>HP Manager</h3>
+<h3>HP</h3>
 
-  <button id="addHp">Adicionar Barra de HP</button>
-
-  <details>
-    <summary>Customização</summary>
-
-    <label>
-      HP Máx
-      <input id="maxHp" type="number" value="10">
-    </label>
-
-    <label>
-      HP Mín
-      <input id="minHp" type="number" value="0">
-    </label>
-
-    <label>
-      Tamanho das Overlays
-      <input id="overlaySize" type="range" min="50" max="200" value="100">
-    </label>
-  </details>
-
+<div class="bar-bg">
+  <div class="bar-fill"></div>
 </div>
 
-<div id="overlay"></div>
-
-<script src="https://unpkg.com/@owlbear-rodeo/sdk"></script>
-<script src="main.js"></script>
 </body>
 </html>
