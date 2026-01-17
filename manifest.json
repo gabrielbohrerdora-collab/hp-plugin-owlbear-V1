@@ -7,6 +7,6 @@
   "action": {
     "title": "HP Bar",
     "icon": "icon.png",
-    "popover": "index.html"
+    "popover": "https://orenthedev.github.io/hp-plugin-owlbear-V1/index.html"
   }
 }
